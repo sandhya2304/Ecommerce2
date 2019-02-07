@@ -16,8 +16,8 @@
    
   
    <context:component-scan base-package="org.sandhya.Shopping.controller"/>
+    <context:component-scan base-package="org.sandhya.ShoppingBackend.daoImpl"/>
  
-  
    
    <bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
